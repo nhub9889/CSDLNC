@@ -8,6 +8,7 @@ ENGINE = InnoDB
 
 CREATE TABLE IF NOT EXISTS `gk`.`book` (
   `idBook` VARCHAR(45) NOT NULL,
+  'type' BOOLEAN NOT NULL,
   `name` VARCHAR(45) NOT NULL,
   `price` INT NOT NULL,
   `amount` INT NOT NULL,
