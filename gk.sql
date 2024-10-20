@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS `gk`.`book` (
   `year` YEAR NOT NULL,
   `pound` INT NULL,
   `length` INT NULL,
+  'publisher' VARCHAR(55) NULL,
   `width` INT NULL,
   `ISBN` VARCHAR(45) NULL,
   `decription` TEXT(1024) NULL,
